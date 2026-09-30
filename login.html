@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library Login</title>
+  <link rel="stylesheet" href="/css/login.css?v=1">
+</head>
+<body>
+  <div class="login-card">
+    <div class="logo">📚</div>
+    <h1>Library Management</h1>
+    <p class="subtitle">Admin Login</p>
+
+    <form id="loginForm">
+      <label for="username">Username</label>
+      <input id="username" type="text" placeholder="Enter username" required autocomplete="username">
+
+      <label for="password">Password</label>
+      <input id="password" type="password" placeholder="Enter password" required autocomplete="current-password">
+
+      <button type="submit">Login</button>
+      <p id="error" class="error"></p>
+    </form>
+
+    <div class="demo">
+      <strong>Demo login</strong><br>
+      Username: <code>admin</code><br>
+      Password: <code>admin123</code>
+    </div>
+  </div>
+  <script src="/js/login.js?v=1"></script>
+</body>
+</html>
